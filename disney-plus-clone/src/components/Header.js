@@ -6,7 +6,7 @@ export default function Header() {
         <Nav>
               <Logo src="/images/logo.svg" />
               <NavMenu>
-                    <a>
+                    <a href='/'>
                         <img src="/images/home-icon.svg" alt="home-icon.svg" />
                         <span>HOME</span>
                     </a>
