@@ -27,7 +27,7 @@ function Detail() {
                 </GroupWatchButton>
             </Controls>
             <SubTitle>
-                2018  7m  Family, Fantasy, Kids, Animation 
+                2018,  7m, Family, Fantasy, Kids, Animation 
             </SubTitle>
             <Description>
                 A Chinese mom who´s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings spring to life.
@@ -70,7 +70,6 @@ const ImageTitle = styled.div`
         img {
             width: 100%;
             height: 100%;
-            
             object-fit: contain;
         }
 `
@@ -90,7 +89,7 @@ const PlayButton = styled.button`
         border: none;
         padding: 0px 24px;
         margin-right: 22px;
-        letter-spazing: 1.8px;
+        letter-spacing: 1.8px;
         cursor: pointer;
 
         &:hover {
@@ -133,6 +132,7 @@ const SubTitle = styled.div`
     font-size: 15px;
     min-height: 20px;
     margin-top: 26px;
+    letter-spacing: 1.8px;
 `
 
 const Description = styled.div`
